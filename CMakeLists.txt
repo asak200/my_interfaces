@@ -12,6 +12,7 @@ find_package(rosidl_default_generators REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/MsgDef.msg"
+  "msg/SerMsg.msg"
   "srv/Xyaz.srv"
   "srv/ArrayResult.srv"
   DEPENDENCIES std_msgs
