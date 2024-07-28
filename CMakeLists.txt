@@ -15,6 +15,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/SerMsg.msg"
   "srv/Xyaz.srv"
   "srv/ArrayResult.srv"
+  "srv/CmdVelReq.srv"
   DEPENDENCIES std_msgs
 )
 
